@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- method="post"하면 유알엘 그거 숨겨진다   -->
+	<form action="login_output.jsp" class="login-box" method="post">
+
+		<div class="title">선민공주님의 Login 👑</div>
+
+		<div class="input-box">
+			ID : <input type="text" name="id" placeholder="Enter your ID">
+		</div>
+
+		<div class="input-box">
+			PW : <input type="password" name="pw"
+				placeholder="Enter your password">
+		</div>
+
+		<div>
+			<button class="login-btn">Login 💖</button>
+		</div>
+
+	</form>
+
+
+	<style>
+body {
+	background: linear-gradient(135deg, #ffd6f0, #ffe9f7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Segoe UI", sans-serif;
+}
+
+.login-box {
+	background: white;
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(255, 105, 180, 0.3);
+	text-align: center;
+	width: 300px;
+}
+
+.title {
+	font-size: 26px;
+	font-weight: bold;
+	color: #ff69b4;
+	margin-bottom: 20px;
+}
+
+.input-box {
+	margin: 15px 0;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	border: 2px solid #ffc0cb;
+	border-radius: 10px;
+	outline: none;
+	font-size: 14px;
+}
+
+input:focus {
+	border-color: #ff69b4;
+	box-shadow: 0 0 5px #ffb6d9;
+}
+
+.login-btn {
+	margin-top: 15px;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 15px;
+	background: linear-gradient(45deg, #ff9ad5, #ff69b4);
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.login-btn:hover {
+	transform: scale(1.05);
+	box-shadow: 0 5px 15px rgba(255, 105, 180, 0.5);
+}
+</style>
+
+
+
+
+</body>
+</html>
