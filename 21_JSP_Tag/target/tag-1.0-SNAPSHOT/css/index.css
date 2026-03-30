@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    font-family:'Segoe UI','맑은 고딕',sans-serif;
+    background: linear-gradient(135deg,#fffdf5,#fff3c4,#ffe89a);
+}
+
+/* 헤더 */
+.header{
+    height:120px;
+    background: linear-gradient(90deg,#ffd54f,#ffca28);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:48px;        /* 글자 크게 */
+    font-weight:800;
+    color:#5c4b00;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* 링크 */
+a{
+    text-decoration:none;
+    color:#7a6400;
+    font-weight:600;
+}
+
+/* 네비 */
+.nav{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    padding:30px;
+}
+
+.nav div{
+    background:white;
+    padding:12px 30px;
+    border-radius:40px;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+    transition:all 0.25s ease;
+}
+
+.nav div:hover{
+    transform:translateY(-3px);
+    background:#fff6d6;
+}
+
+/* 메인 */
+.main{
+    width:65%;
+    margin:40px auto;
+    background:white;
+    padding:50px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    text-align:center;
+    font-size:18px;
+}
+
+/* 푸터 */
+.footer{
+    text-align:center;
+    padding:20px;
+    background:#ffd54f;
+    color:#5c4b00;
+    font-weight:600;
+    margin-top:60px;
+}
